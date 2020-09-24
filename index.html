@@ -5,16 +5,16 @@
     <title>Change Fahrenheit Degree to Celsius</title>
 </head>
 <body>
-<h2 style="color: aquamarine"> Change Fahrenheit Degree to Celsius</h2>
+<h2 style="color: #981066"> Change Fahrenheit Degree to Celsius</h2>
 <!--Form có 1 ô input để nhập vào độ F và 1 cái thẻ p để trả về độ C, id, onchange, oninput,... đầy đủ-->
 <form>
     <p>
-        <label>Fahrenheit</label>
-        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+        <label> <strong>Fahrenheit</strong></label>
+        <input id="inputFahrenheit" type="number" placeholder="Nhập độ F"
                oninput="temperatureConverter(this.value)"
                onchange="temperatureConverter(this.value)">
     </p>
-    <p>Celsius: <span id="outputCelsius"></span></p>
+    <p><strong>Celsius: </strong><span id="outputCelsius"></span></p>
 </form>
 <!--Nhúng file js ở đây-->
 <script src="changeFtoC.js"></script>
